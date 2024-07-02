@@ -7,6 +7,7 @@ html{
 
 body{
   color: #121212;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 a{
@@ -64,7 +65,7 @@ li{
   align-items: center;
   gap: 20px;
   padding-top: 59px;
-  padding-right: 50px;
+  padding-right: 70px;
 }
 
 .header__nav ul li{
@@ -75,6 +76,24 @@ li{
   display: inline-block;
   font-weight: bold;
 }
+
+.header__nav ul .drop-down{
+  position: relative;
+}
+
+.header__nav ul .drop-down::after{
+  content: "";
+  margin: auto;
+  position: absolute;
+  top: 7px;
+  right: -12px;
+  width: 8px;   
+  height: 8px;   
+  border-top: 2px solid #121212;     
+  border-right: 2px solid #121212;   
+  transform: rotate(135deg);    
+}
+
 
 /* MV */
 
@@ -128,7 +147,17 @@ li{
   margin-right: 18px;
 }
 
+.mv__date .arrow{
+  width: 67px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 16px;
+}
+
 .mv__site{
+  margin-top: 5px;
   font-size: 1.75rem;
   font-weight: bold;
   letter-spacing: .05em;
@@ -347,6 +376,29 @@ li{
   padding-right: 64px;
   padding-bottom: 64px;
   background-color: #fff;
+  position: relative;
+}
+
+.content__inner::before{
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 14px;
+  left: 14px; 
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+  background-color: #21B8C5; 
+}
+
+.content__inner::after{
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  bottom: 14px;
+  right: 14px;
+  clip-path: polygon(100% 100%, 0% 100%, 100% 0);
+  background-color: #21B8C5; 
 }
 
 .section-title-sub{
@@ -693,6 +745,29 @@ li{
   background-color: #fff;
   padding-top: 64px;
   padding-bottom: 64px;
+  position: relative;
+}
+
+.schedule__inner::before{
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 14px;
+  left: 14px; 
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+  background-color: #21B8C5; 
+}
+
+.schedule__inner::after{
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  bottom: 14px;
+  right: 14px;
+  clip-path: polygon(100% 100%, 0% 100%, 100% 0);
+  background-color: #21B8C5; 
 }
 
 .cross-table{
@@ -773,6 +848,29 @@ li{
   padding-left: 59px;
   padding-right: 58px;
   background-color: #fff;
+  position: relative;
+}
+
+.map__inner::before{
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 14px;
+  left: 14px; 
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+  background-color: #21B8C5; 
+}
+
+.map__inner::after{
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  bottom: 14px;
+  right: 14px;
+  clip-path: polygon(100% 100%, 0% 100%, 100% 0);
+  background-color: #21B8C5; 
 }
 
 .map__mv{
@@ -816,6 +914,29 @@ li{
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 24px;
+  position: relative;
+}
+
+.store__inner::before{
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 14px;
+  left: 14px; 
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+  background-color: #21B8C5; 
+}
+
+.store__inner::after{
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  bottom: 14px;
+  right: 14px;
+  clip-path: polygon(100% 100%, 0% 100%, 100% 0);
+  background-color: #21B8C5; 
 }
 
 .store__item{
@@ -840,6 +961,29 @@ li{
   padding-top: 47px;
   padding-bottom: 50px;
   background-color: #fff;
+  position: relative;
+}
+
+.contact__inner::before{
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 14px;
+  left: 14px; 
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+  background-color: #21B8C5; 
+}
+
+.contact__inner::after{
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  bottom: 14px;
+  right: 14px;
+  clip-path: polygon(100% 100%, 0% 100%, 100% 0);
+  background-color: #21B8C5; 
 }
 
 .contact__name{
