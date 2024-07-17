@@ -761,7 +761,7 @@ li{
 .cross-table{
   margin: 0 auto;
   width: 444px;
-  border: 1px solid #21B8C4;
+  background-color: rgba(200, 231, 234, 0.5);
 }
 
 .cross-table__inner{
@@ -778,7 +778,7 @@ li{
   letter-spacing: .05em;
   padding: 6px;
   background-color: #1CABB9;
-  border-right: 1px solid #FFFFFF;
+  border-right: 2px solid #FFFFFF;
   vertical-align: middle;
 }
 
@@ -795,8 +795,8 @@ li{
   padding-bottom: 6px;
   padding-left: 10px;
   padding-right: 10px;
-  border-right: 1px solid #21B8C4;
-  border-bottom: 1px solid #21B8C4;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
   vertical-align: middle;
   font-size: 1rem;
   font-weight: bold;
@@ -818,6 +818,14 @@ li{
   border-bottom-width: 0;
 }
 
+.schedule-bg{
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+}
 
 /* MAP */
 
@@ -1178,6 +1186,12 @@ TB
 /*-------------------------------------------
 SP
 -------------------------------------------*/
+@media screen and (max-width: 900px) {
+  .schedule-bg{
+    bottom: 70px;
+    width: 95%;
+  }
+}
 @media screen and (max-width: 760px) {
 
   /* MV */
@@ -1604,6 +1618,10 @@ SP
     padding-left: 6px;
     padding-right: 6px;
     font-size: 0.875rem;
+  }
+
+  .schedule-bg{
+    display: none;
   }
 
   /* MAP */
