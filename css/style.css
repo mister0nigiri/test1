@@ -443,8 +443,8 @@ li{
 
 .fight__student__title{
   display: inline-block;
-  color: #121212;
-  font-size: 1.125rem;
+  color: #21B8C4;
+  font-size: 1.5rem;
   font-weight: bold;
   letter-spacing: .05em;
   background-color: #fff;
@@ -472,12 +472,6 @@ li{
   margin-top: 0px;
 }
 
-.fight__student__list li span{
-  font-size: 1.5rem;
-  letter-spacing: normal;
-  margin-right: 13px;
-}
-
 .fight__company{
   width: 31.6%;
   padding-top: 118px;
@@ -491,8 +485,8 @@ li{
 
 .fight__company__title{
   display: inline-block;
-  color: #121212;
-  font-size: 1.125rem;
+  color: #21B8C4;
+  font-size: 1.5rem;
   font-weight: bold;
   letter-spacing: .05em;
   background-color: #fff;
@@ -773,8 +767,8 @@ li{
 
 .cross-table__header{
   color: #fff;
-  font-size: 0.875rem;
-  font-weight: normal;
+  font-size: 1.5rem;
+  font-weight: bold;
   letter-spacing: .05em;
   padding: 6px;
   background-color: #1CABB9;
@@ -805,6 +799,7 @@ li{
 
 .cross-table__text-right{
   text-align: left;
+  padding-left: 30px;
 }
 
 .cross-table__header:last-child, .cross-table__text:last-child{
@@ -1429,18 +1424,23 @@ SP
     border: none;
   }
 
-  .fight__student__list li{
-    font-size: 0.875rem;
+  .fight__student__title{
+    font-size: 1rem;
   }
 
-  .fight__student__list li span{
-    font-size: 1.25rem;
+  .fight__student__list li{
+    font-size: 0.875rem;
   }
 
   .fight__company{
     width: 100%;
     border: none;
   }
+
+  .fight__company__title{
+    font-size: 1rem;
+  }
+
 
   .fight__company__text{
     font-size: 0.875rem;
@@ -1606,6 +1606,10 @@ SP
     width: auto;
   }
 
+  .cross-table__header{
+    font-size: 1rem;
+  }
+
   .width25p{
     width: 20%;
   }
@@ -1618,6 +1622,10 @@ SP
     padding-left: 6px;
     padding-right: 6px;
     font-size: 0.875rem;
+  }
+
+  .cross-table__text-right{
+    padding-left: 15px;
   }
 
   .schedule-bg{
