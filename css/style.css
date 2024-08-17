@@ -267,6 +267,10 @@ li{
   line-height: 1;
 }
 
+.about__title br{
+  display: none;
+}
+
 .about__text-up{
   margin-top: 68px;
   font-size: 1.25rem;
@@ -586,8 +590,8 @@ li{
   font-size: 1.25rem;
   background:linear-gradient(transparent 65%, #FFF462 0%);
   padding-left: 15px;
-  padding-right: 32px;
-  margin-right: 35px;
+  padding-right: 20px;
+  margin-right: 10px;
 }
 
 .girls__box{
@@ -1416,6 +1420,11 @@ SP
 
   .about__title{
     font-size: 2rem;
+    line-height: 1.5;
+  }
+
+  .about__title br{
+    display: block;
   }
 
   .about__text-up{
@@ -1639,6 +1648,7 @@ SP
 
   .kanameya__text{
     font-size: 0.875rem;
+    text-align: justify;
   }
 
   .kanameya__box{
