@@ -1006,6 +1006,9 @@ li{
 
 .store__list li{
   width: 18%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .cooperation__title{
