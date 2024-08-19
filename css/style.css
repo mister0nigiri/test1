@@ -1702,10 +1702,20 @@ SP
 
   .booth__list__img-sub2{
     bottom: -20px;
+    left: -20px;
   }
 
   .booth__list__img-sub3{
     bottom: -10px;
+    right: -20px;
+  }
+
+  .booth__list__img-sub4{
+    left: -5px;
+  }
+
+  .booth__list__img-sub5{
+    right: -20px;
   }
 
   /* SCHEDULE */
